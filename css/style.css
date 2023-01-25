@@ -41,9 +41,8 @@ ul {
     display: block;
 }
 
-.section {
+.section, .photos {
     padding-top: 120px;
-    margin-bottom: 120px;
 }
 
 .portfolio-main {
@@ -235,7 +234,9 @@ color: var(--secondari-text-color);
  padding-bottom: 120px;
 }
 
-
+.photos {
+    padding-bottom: 120px;
+}
 .photos-list .photos-item:not(:last-child) {
  margin-right: 24px;
 }
@@ -340,6 +341,7 @@ max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
     font-family: inherit;
+    background-color:  #F4F4FD;
     color: #4D5AE5;
     cursor: pointer;
     letter-spacing: 0.04em;
